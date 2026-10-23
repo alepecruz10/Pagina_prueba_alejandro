@@ -1,0 +1,197 @@
+header{
+
+	color: green;
+
+	background-color:#DEB887;
+
+	text-align: center;
+
+	font-size: 30px
+
+	}
+
+body{
+
+	color: crimpson;
+
+	background-color:#DC143C;
+
+	}
+
+p{	font-family: "Tahoma";
+
+	font-size:20px;
+
+	color:purple;
+
+	text-align:justify;
+
+	}
+
+footer{
+
+	color: AQUA;
+
+	background-color:#BC8F8F;
+
+	font-size:15px;
+
+}
+
+.vamosaensayar{
+
+	font-family: "Bahnschrift Semibold";
+
+	font-size:22px;
+
+	font-style:italic;
+
+	font-weight:bold;
+
+	font-variant:small-caps;
+
+	color:teal;
+
+	text-align:center;
+
+	text-decoration: teal underline wavy;
+
+	text-shadow:2px 2px 4px #191970;
+
+	line-height:1,5;
+
+}
+ 
+#menuhorizontal ul {
+
+    /* Línea para delimitar la botonera */
+
+    border-bottom-width: 50px;
+
+    border-bottom-style: solid;
+
+    border-bottom-color: #E4E4E4;
+
+}
+ 
+#menuhorizontal ul li {
+
+    display: inline;
+
+    padding: 2px 7px; /*Separar el texto*/
+
+    margin: 5px; /* Separar los botones */
+
+    background-color:#800080;
+
+    color:white;
+
+    font-family:"comic Sans MS";
+
+    font-size:"20px";
+
+}
+ 
+#menuhorizontal ul li:hover {
+
+    background-color:#CCCCCC; /* Color de fondo sobre el boton */
+
+    cursor:pointer; /* cambiar el aspecto del puntero */
+
+}
+
+#menuhorizontal ul li a {
+
+	text-decoration:none;
+
+	color:inherit;
+
+}
+
+ 
+.boton {
+
+    background-color: blue;
+
+    color: white;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    margin: 5px;
+
+}
+
+.boton:hover {
+
+    background-color: darkblue;
+
+}
+
+#menuD a {
+
+    /* quita el subrayado al enlace y hereda el color del texto */
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+ 
+#menuD ul li {
+
+    /* formato de los botones */
+
+    width: 100px;
+
+    height: 25px;
+
+    display: inline-block; 
+
+    padding: 2px 7px;
+
+    margin: 5px;
+
+    background-color: #000080;
+
+    color: white;
+
+    text-align: center;
+
+    font-family: "Comic Sans MS";
+
+    font-size: 16px;
+
+    position: relative;
+
+}
+ 
+#menuD ul li:hover {
+
+    background-color: grey;
+
+    color: purple;
+
+}
+ 
+#menuD li > ul {
+
+    display: none; 
+
+}
+ 
+#menuD li:hover > ul {
+
+    display: inline-block; 
+
+	position:absolute;
+
+}
+ 

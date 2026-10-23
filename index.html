@@ -1,0 +1,373 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd"> 
+ 
+<html> 
+ 
+<head> 
+<script src="processing.js"></script><!-- para insertar un processing-->
+<script type="text/processing" data-processing-target="pjsCanvas">
+void setup(){
+  size(280,70);
+  background(#2E4683);
+  textSize(50);
+}
+void draw(){
+  background(#2E4683);
+  int h= hour();
+  int m=minute();
+  int s=second();
+  text(h+":"+nf(m,2)+":"+nf(s,2),30,50);
+}
+</script>
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="animation.css" rel="stylesheet" type="text/css">
+<div id="aviso"> TIC ES MI VIDA </div>
+<link href="icono.ico" rel="icon"/> 
+<div id="html"><img id="html" src="unuTr.jpg"> </div>
+¡Bienvenidos a mi página! 
+<canvas id="pjsCanvas" >b</canvas>
+<br> 
+</head> 
+ 
+<body> 
+ 
+<br> 
+ 
+<big>Hola a todos</big> 
+<font color="blue"> 
+    <big><big><big> mi página web </big></big></big> 
+</font> 
+ 
+<main> 
+ 
+En esta sección vamos a probar diferentes formas de escribir texto: 
+ 
+<br><b>"Alejandro" aparece en negrita</b> 
+<br><i>"Alejandro" aparece en cursiva</i> 
+<br><u>Mi nombre es Alejandro y esta frase está subrayada</u> 
+<br><mark>Alejandro es un gran explorador de mundos imaginarios</mark> 
+ 
+<br> 
+(Ahora podemos observar diferentes estilos aplicados al texto.) 
+ 
+<center> 
+ 
+<main> 
+En esta sección vamos a probar diferentes formas de escribir texto: 
+ 
+<br><b>"Alejandro" aparece en negrita</b> 
+<br><i>"Alejandro" aparece en cursiva</i> 
+<br><u>Mi nombre es Alejandro y esta frase está subrayada</u> 
+<br><mark>Alejandro es un gran explorador de mundos imaginarios</mark> 
+ 
+</main> 
+ 
+</center> 
+ 
+ 
+<div align="right"> 
+ 
+<main> 
+Este texto está colocado en la parte derecha de la página: 
+ 
+<br><b>"Alejandro" aparece en negrita</b> 
+<br><i>"Alejandro" aparece en cursiva</i> 
+<br><u>Esta frase está subrayada</u> 
+<br><mark>Alejandro es conocido por sus grandes aventuras</mark> 
+ 
+</main> 
+ 
+</div> 
+ 
+ 
+<p> 
+Alfonso, Fernando, Gonzalo, Sancho, Enrique, Ramiro, García, Pedro, 
+Diego, Martín, Rodrigo, Álvaro, Jaime, Juan, Miguel, Carlos, Antonio, 
+Pablo, Daniel, Sergio, Adrián, Marcos, Lucas, Javier, David y Alejandro. 
+</p> 
+ 
+</main> 
+ 
+ 
+<p id="puntodos"></p> 
+ 
+ 
+<!-- TIPOS DE LISTAS --> 
+ 
+<div align="left"> 
+ 
+<font color="green"> 
+    <big><big><big>Tipos de listas</big></big></big> 
+</font> 
+ 
+<br> 
+ 
+<small> 
+ 
+En esta sección veremos diferentes ejemplos de listas. 
+ 
+<br><br> 
+ 
+<ul> 
+    <li>Primer elemento de la lista</li> 
+    <li>Segundo elemento de la lista</li> 
+</ul> 
+ 
+ 
+<p>Otra segunda lista:</p> 
+ 
+<ul> 
+    <li type="square">Primer elemento con un cuadrado</li> 
+    <li type="square">Segundo elemento con un cuadrado</li> 
+    <li type="square">Tercer elemento con un cuadrado</li> 
+</ul> 
+ 
+ 
+<ul> 
+    <li type="circle">Primer elemento con un círculo</li> 
+    <li type="circle">Segundo elemento con un círculo</li> 
+    <li type="circle">Tercer elemento con un círculo</li> 
+</ul> 
+ 
+ 
+<ul> 
+    <li type="disc">Primer elemento con un punto</li> 
+    <li type="disc">Segundo elemento con un punto</li> 
+    <li type="disc">Tercer elemento con un punto</li> 
+</ul> 
+ 
+ 
+<ol> 
+    <li>Primer elemento de la lista numerada</li> 
+    <li>Segundo elemento de la lista numerada</li> 
+    <li>Tercer elemento de la lista numerada</li> 
+</ol> 
+ 
+ 
+<ol> 
+    <li>Primer elemento de otra lista</li> 
+    <li>Segundo elemento de otra lista</li> 
+    <li>Tercer elemento de otra lista</li> 
+</ol> 
+ 
+ 
+<ol> 
+    <li>Primer elemento de esta lista</li> 
+    <li>Segundo elemento de esta lista</li> 
+    <li>Tercer elemento de esta lista</li> 
+</ol> 
+ 
+</small> 
+ 
+</div> 
+ 
+ 
+<br><br> 
+ 
+ 
+<center> 
+ 
+<font color="blue"> 
+    <big><big>mi página web</big></big> 
+</font> 
+ 
+</center> 
+ 
+ 
+<!-- TABLA SIN BORDES --> 
+ 
+<table class="tabla"> 
+ 
+<caption>Mi primera tabla HTML sin bordes</caption> 
+ 
+<tr> 
+<td>nombre</td> 
+<td>edad</td> 
+</tr> 
+ 
+<tr> 
+<td>Alejandro</td> 
+<td>16 años</td> 
+</tr> 
+ 
+</table> 
+ 
+ 
+<br> 
+ 
+ 
+<!-- TABLA CON BORDES --> 
+ 
+<center> 
+ 
+<table border="1"> 
+ 
+<caption>Mi primera tabla HTML con bordes</caption> 
+ 
+<tr> 
+<td>nombre</td> 
+<td>ciudad</td> 
+</tr> 
+ 
+<tr> 
+<td>Alejandro</td> 
+<td>Valladolid</td> 
+</tr> 
+ 
+</table> 
+ 
+</center> 
+ 
+ 
+<br> 
+ 
+ 
+<!-- TABLA CON CELDAS COMBINADAS --> 
+ 
+<center> 
+ 
+<table border="1"> 
+ 
+<tr> 
+<td colspan="3">Esta celda ocupa tres columnas</td> 
+</tr> 
+ 
+<tr> 
+<td rowspan="2">Esta celda ocupa dos filas</td> 
+<td>información 1</td> 
+<td>información 2</td> 
+</tr> 
+ 
+<tr> 
+<td>información 3</td> 
+<td>información 4</td> 
+</tr> 
+ 
+</table> 
+ 
+</center> 
+ 
+ 
+<br> 
+ 
+ 
+<!-- IMÁGENES --> 
+ 
+<center> 
+ 
+<big><big><b><i><u>Imágenes</u></i></b></big></big> 
+ 
+<br> 
+ 
+<img src="image.jpg" 
+     alt="imagen de ejemplo" 
+     border="1" 
+     align="top" 
+     width="40
+	 0" 
+     height="200"> 
+ 
+<br> 
+ 
+Ahora eliminamos el borde, colocamos la imagen a la derecha 
+y modificamos sus dimensiones. 
+ 
+</center> 
+ 
+ 
+<img src="image.jpg" 
+     alt="imagen de ejemplo" 
+     border="0" 
+     align="right" 
+     width="600" 
+     height="200"> 
+ 
+ 
+<br><br><br><br><br><br><br><br><br><br><br><br><br> 
+ 
+ 
+<!-- ENLACES --> 
+ 
+<center> 
+ 
+<big><big><b><i><u>Enlaces</u></i></b></big></big> 
+ 
+<br><br> 
+ 
+<b> 
+<big><big><big><big> 
+<a href="#" target="_blank"> 
+entra aquí para visitar otra página 
+</a> 
+</big></big></big></big> 
+</b> 
+ 
+<br><br> 
+ 
+<b> 
+<big><big><big><big> 
+<a href="#" target="_blank"> 
+pulsa aquí para continuar 
+</a> 
+</big></big></big></big> 
+</b> 
+
+<br><br><br>
+
+
+
+<big><big><b><i><u>Google Maps</u></i></b></big></big>
+
+<br><br>
+
+    src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.720978482121!2d-4.754215723622072!3d41.61854498162463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd476d000ed41adf%3A0x58b00d4e0669cad2!2sCasa%20toni!5e0!3m2!1ses-419!2ses!4v1791288103569!5m2!1ses-419!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
+</iframe>
+
+
+<br><br><br>
+
+
+<audio src="cancion.mp3" controls> </audio> 
+
+<br> 
+<br> 
+<br> 
+<br> 
+ 
+ 
+<audio src="canciona.mp3" controls> </audio> 
+
+<br> 
+<br> 
+
+<video src="video.webm" width="640" height="320" controls> </video> 
+ 
+```
+<nav id="menuhorizontal">
+<ul>
+<li><a href= "htmlcincoycss.pdf">boton uno</a></li>
+<li>boton dos</li>
+<li>boton tres</li>
+</ul>
+</nav>
+ 
+<nav id="menu">
+<ul>
+<li>Menú
+<ul>
+<li><a href= "htmlcincoycss.pdf" target="_blank">Botón 1 </a></li>
+<li>Botón 2
+<ul>
+<li><a href="https://www.google.es" target="_blank">Botón 2.1 </a></li>
+</ul>
+<li> Botón 2.2 </li>
+</ul>
+</li>
+<li> Botón 3</li>
+</ul>
+</li>
+</ul>
+</nav>
+<br><br><br><br><br>
+
+
